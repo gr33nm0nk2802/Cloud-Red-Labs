@@ -115,9 +115,26 @@ terraform destroy --auto-approve
 
 ### Scenarios
 
+- **A-B1 — SSTI → Managed Identity token** *(Easy → Medium)*  
+  **Goal:** Abuse SSTI to obtain managed identity token (lab **Flag 1**).  
+  **Hint:** Inspect app responses and identity metadata.  
+  **Mitigation:** Fix SSTI, limit managed identity permissions.
+
+- **A-B2 — Managed identity → KeyVault → SAS** *(Medium)*  
+  **Goal:** Read KeyVault (Flag 2) and use SAS to fetch blob (Flag 3).  
+  **Hint:** Check vault policies and secret contents for storage URLs.  
+  **Mitigation:** Restrict vault access, avoid broad SAS tokens, enable auditing.
+
+- **A-B3 — Blob → creds → lateral exec** *(Medium → Hard)*  
+  **Goal:** Harvest creds from blob, run limited commands as `BkpUser`, capture **Flag 4**.  
+  **Hint:** Correlate blob contents to user/host access.  
+  **Mitigation:** Enforce credential hygiene, conditional access, JIT access, logging.
+
 ## Solution 
 
 [Available here](./azure/Solution.md)
+
+---
 
 ## AWS Lab
 ### Attack Path
@@ -125,10 +142,28 @@ terraform destroy --auto-approve
 
 ### Scenarios
 
+- **W-A1 — Lambda exec → Temp creds** *(Easy → Medium)*  
+  **Goal:** Capture **Flag 1** from the vulnerable Lambda runtime.  
+  **Hint:** Inspect runtime metadata / role.  
+  **Mitigation:** Narrow Lambda IAM role & remove secrets from code.
+
+- **W-A2 — Assume role → S3 read** *(Medium)*  
+  **Goal:** Use temp creds to assume S3-reader and fetch **Flag 2**.  
+  **Hint:** Check trust policies & bucket policy scope.  
+  **Mitigation:** Tighten trust relationships; deny public bucket access.
+
+- **W-A3 — Long-term secret → Secret store** *(Medium → Hard)*  
+  **Goal:** Locate long-term key, read corp secrets, get **Flag 3**.  
+  **Hint:** Find stored credentials and their access scope.  
+  **Mitigation:** Remove long-lived keys; enforce rotation and access controls.
+
+- **W-A4 — Secrets → RDS access** *(Hard)*  
+  **Goal:** Use retrieved secrets to access RDS and retrieve **Flag 4**.  
+  **Hint:** Map which secret unlocks which resource.  
+  **Mitigation:** Network segmentation, IAM+network DB restrictions, audit DB auth.
+
 ## Solution 
 
 [Available here](./aws/Solution.md)
 
-
-
-
+---
