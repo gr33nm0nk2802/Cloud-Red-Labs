@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <strong>Cloud-Red-Labs</strong> — intentionally vulnerable cloud Red Team lab environment for learning and practicing common AWS &amp; Azure security flaws, exploitation techniques, and cloud-based Red Team operations. Built with ❤️ by <a href="https://linkedin.com/in/gr33nm0nk2802" target="_blank" rel="noopener noreferrer">@gr33nm0nk2802</a>
+  <strong>Cloud-Red-Labs</strong> — intentionally vulnerable cloud Red Team lab environment for learning and practicing common AWS &amp; Azure security flaws, exploitation techniques, and cloud-based Red Team operations.<br> Built with ❤️ by <a href="https://linkedin.com/in/gr33nm0nk2802" target="_blank" rel="noopener noreferrer">@gr33nm0nk2802</a>
 </p>
 
 > Future editions will support other cloud providers.
@@ -127,5 +127,6 @@ terraform destroy --auto-approve
 ## Solution 
 
 [Available here](./aws/Solution.md)
+
 
 
