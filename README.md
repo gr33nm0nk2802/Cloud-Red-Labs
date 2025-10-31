@@ -58,9 +58,17 @@
 > Note: Attacks are possible from Windows/MAC/Linux as long as you have the above installed.
 
 # Deployment
-## Build the Application
 
-1. If you make changes to the application code under `artifacts/src`. Run the following.
+## How to Deploy the lab?
+
+1. Clone the repo and navigate to the specific repository
+
+```bash
+git clone git@github.com:gr33nm0nk2802/Cloud-Red-Labs.git
+cd cloud-red-lab
+```
+
+2. If you make changes to the application code under `artifacts/src`. Run the following.
 
 ```bash
 cd artifacts
@@ -68,16 +76,7 @@ chmod +x build.sh
 ./build.sh
 ```
 
-## How to Deploy the lab?
-
-1. Clone the repo and navigate to the specific repository
-
-```bash
-git clone [RepoUrl]
-cd cloud-red-lab
-```
-
-2. To deploy Azure challenge. 
+3. To deploy Azure challenge. 
 
 Login to the `azcli` from your console.
 
@@ -91,7 +90,7 @@ terraform init
 terraform apply --auto-approve
 ```
 
-3. To deploy the AWS challenge.
+4. To deploy the AWS challenge.
 
 Login to `awscli`
 
@@ -104,7 +103,7 @@ terraform init
 terraform apply --auto-approve
 ```
 
-4. To destroy the AWS or Azure lab, navigate to the respective directory and run.
+5. To destroy the AWS or Azure lab, navigate to the respective directory and run.
 
 ```bash
 terraform destroy --auto-approve
