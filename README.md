@@ -1,21 +1,29 @@
 # Cloud-Red-Labs
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![logo](./artifacts/images/Logo.png)
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Stars](https://img.shields.io/github/stars/gr33nm0nk2802/Cloud-Red-Labs?style=flat)
-![Forks](https://img.shields.io/github/forks/gr33nm0nk2802/Cloud-Red-Labs?style=flat)
-![Issues](https://img.shields.io/github/issues/gr33nm0nk2802/Cloud-Red-Labs?style=flat)
-![Last Commit](https://img.shields.io/github/last-commit/gr33nm0nk2802/Cloud-Red-Labs)
-[![Category](https://img.shields.io/badge/Category-Cloud%20Red%20Team-green.svg)](https://github.com/gr33nm0nk2802/Cloud-Red-Labs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gr33nm0nk2802/Cloud-Red-Labs/blob/main/LICENSE)
-[![Pull Requests](https://img.shields.io/badge/PRs-welcome-success.svg)](https://github.com/gr33nm0nk2802/Cloud-Red-Labs/pulls)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
-<br>
+<p align="center">
+  <img src="./artifacts/images/Logo.png" alt="logo" width="800" />
+</p>
 
-Intentionally designed vulnerable cloud lab environment for learning and practicing common cloud security flaws, exploitation techniques, and Red Team operations across Azure and AWS platforms.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/gr33nm0nk2802/Cloud-Red-Labs?style=flat" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/gr33nm0nk2802/Cloud-Red-Labs?style=flat" alt="Forks" />
+  <img src="https://img.shields.io/github/issues/gr33nm0nk2802/Cloud-Red-Labs?style=flat" alt="Issues" />
+  <img src="https://img.shields.io/github/last-commit/gr33nm0nk2802/Cloud-Red-Labs" alt="Last Commit" />
+  <a href="https://github.com/gr33nm0nk2802/Cloud-Red-Labs"><img src="https://img.shields.io/badge/Category-Cloud%20Red%20Team-green.svg" alt="Category" /></a>
+  <a href="https://github.com/gr33nm0nk2802/Cloud-Red-Labs/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/gr33nm0nk2802/Cloud-Red-Labs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-success.svg" alt="Pull Requests" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8%2B-green.svg" alt="Python" /></a>
+</p>
 
-Author: [@gr33nm0nk2802](https://linkedin.com/in/gr33nm0nk2802)
+<p align="center">
+  <!-- Infra tooling badges -->
+  <a href="https://www.terraform.io/"><img src="https://img.shields.io/badge/Terraform-0.13%2B-5f3c88?style=flat&logo=terraform&logoColor=white" alt="Terraform" /></a>
+  <a href="https://docs.aws.amazon.com/cli/"><img src="https://img.shields.io/badge/AWS_CLI-2.x-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="AWS CLI" /></a>
+  <a href="https://learn.microsoft.com/cli/azure/"><img src="https://img.shields.io/badge/Azure_CLI-2.x-0078D4?style=flat&logo=microsoft-azure&logoColor=white" alt="Azure CLI" /></a>
+</p>
 
+<p align="center">
+  <strong>Cloud-Red-Labs</strong> — intentionally vulnerable cloud Red Team lab environment for learning and practicing common AWS &amp; Azure security flaws, exploitation techniques, and cloud-based Red Team operations. Built with ❤️ by <a href="https://linkedin.com/in/gr33nm0nk2802" target="_blank" rel="noopener noreferrer">@gr33nm0nk2802</a>
+</p>
 
 > Future editions will support other cloud providers.
 
@@ -119,4 +127,5 @@ terraform destroy --auto-approve
 ## Solution 
 
 [Available here](./aws/Solution.md)
+
 
