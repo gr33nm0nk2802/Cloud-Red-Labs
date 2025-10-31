@@ -111,19 +111,20 @@ terraform destroy --auto-approve
 ```
 
 ## Azure Lab
-
+### Attack Path
 ![](./artifacts/images/azure/Azure-Attack-Path.png)
 
-## Scenarios
+### Scenarios
 
 ## Solution 
 
 [Available here](./azure/Solution.md)
 
 ## AWS Lab
+### Attack Path
 ![](./artifacts/images/aws/AWS-Attack-Path.png)
 
-## Scenarios
+### Scenarios
 
 ## Solution 
 
