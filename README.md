@@ -37,7 +37,10 @@
 - Lateral Movement          
 - Exfiltration            
 
-![](./artifacts/images/RT-Lifecycle.png)
+<p align="center">
+  <img src="./artifacts/images/RT-Lifecycle.png" alt="logo" width="800" />
+</p>
+
 
 # Pre-Requisites 
 
@@ -178,6 +181,7 @@ terraform destroy --auto-approve
 
 [DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 ---
+
 
 
 
