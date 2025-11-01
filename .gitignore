@@ -37,6 +37,7 @@ terraform.rc
 *.iml
 *.sublime-workspace
 *.sublime-project
+artifacts/
 
 # OS metadata
 Thumbs.db
