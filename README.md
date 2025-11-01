@@ -32,10 +32,12 @@
 
 - Recon                     
 - Initial Access            
+- Persistence               
 - Privilege Escalation      
 - Lateral Movement          
-- Persistence               
-- Exfiltration              
+- Exfiltration            
+
+![](./artifacts/images/RT-Lifecycle.png)
 
 # Pre-Requisites 
 
