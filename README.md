@@ -113,7 +113,10 @@ terraform destroy --auto-approve
 
 ## Azure Lab
 ### Attack Path
-![](./artifacts/images/azure/Azure-Attack-Path.png)
+
+<p align="center">
+  <img src="./artifacts/images/azure/Azure-Attack-Path.png" alt="Azure Attack Path" width="800" />
+</p>
 
 ### Scenarios
 
@@ -140,7 +143,10 @@ terraform destroy --auto-approve
 
 ## AWS Lab
 ### Attack Path
-![](./artifacts/images/aws/AWS-Attack-Path.png)
+
+<p align="center">
+  <img src="./artifacts/images/aws/AWS-Attack-Path.png" alt="Azure Attack Path" width="800" />
+</p>
 
 ### Scenarios
 
@@ -172,5 +178,6 @@ terraform destroy --auto-approve
 
 [DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 ---
+
 
 
