@@ -168,4 +168,7 @@ terraform destroy --auto-approve
 
 [Available here](./aws/Solution.md)
 
+# Presentation
+
+![DC-Bahrain-33](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 ---
