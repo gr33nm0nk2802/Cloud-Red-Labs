@@ -124,7 +124,6 @@ aws s3 cp s3://cloud-red-lab-internal-5975a1/secret_reader_creds.txt .
 ```bash
 # Set the Short Term Credentials
 export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
 export AWS_SESSION_TOKEN=
 
 # Verify the identity of the caller
@@ -158,6 +157,7 @@ aws rds describe-db-instances --output json
 ```
 
 ![](../artifacts/images/aws/18.png)
+
 
 
 Final Task: Connect to the DB and get the flag.
