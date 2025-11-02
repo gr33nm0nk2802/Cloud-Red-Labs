@@ -181,8 +181,8 @@ terraform destroy --auto-approve
 
 # Presentation
 
-![DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
-[DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
+[DC-Bahrain-25 Presentation PDF](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
+[DC-Bahrain-25 Presentation](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pptx)
 ---
 
 
