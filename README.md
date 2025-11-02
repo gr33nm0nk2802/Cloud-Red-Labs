@@ -85,7 +85,7 @@ chmod +x build.sh
 
 3. To deploy Azure challenge. 
 
-Login to the `azcli` from your console.
+Edit the Subscriptioni ID under `azure/variables.tf` file. Login to the `azcli` from your console.
 
 ```bash
 cd azure/
@@ -184,6 +184,7 @@ terraform destroy --auto-approve
 ![DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 [DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 ---
+
 
 
 
