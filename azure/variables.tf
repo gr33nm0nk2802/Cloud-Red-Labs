@@ -1,7 +1,7 @@
 variable "subscription_id" {
   description = "Subscription ID in string"
   type        = string
-  default     = "6e740e37-c720-447c-9cae-5652ced0ccf2" # CloudVillage Subscription ID
+  default     = "" # Your Subscription ID
 }
 
 variable "resource_group_name" {
