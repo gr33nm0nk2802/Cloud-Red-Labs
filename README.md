@@ -75,6 +75,8 @@ cd cloud-red-lab
 
 2. If you make changes to the application code under `artifacts/src`. Run the following.
 
+> Note: Please don't use the default credentials. Change the password in azure/app.py and the password and secret in aws-app/app.py.
+
 ```bash
 cd artifacts
 chmod +x build.sh
@@ -181,6 +183,7 @@ terraform destroy --auto-approve
 
 [DC-Bahrain-25](./slides/Breaking-Boundaries-Multi-Cloud-Red-Teaming.pdf)
 ---
+
 
 
 
